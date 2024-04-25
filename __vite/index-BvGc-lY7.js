@@ -1,0 +1,1 @@
+import{_ as o,v as r,c as a,a as e,t as n,b as c,r as p,o as d}from"./index-CILRUnNq.js";const i=r.script({setup(){return{}}});function _(t,l,u,f,m,v){const s=p("header:test");return d(),a("div",null,[e(n(t.the.visitor)+" ",1),c(s,{slot:""}),e(" Index ")])}const h=o(i,[["render",_]]);export{h as default};

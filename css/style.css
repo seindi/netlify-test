@@ -1,0 +1,180 @@
+/**
+ * xxx
+ *
+ * title
+ * description
+ * sub description
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */
+
+:root {
+	--font-family: "Roboto", "Segoe UI";
+	--font-face: "Roboto", "Segoe UI";
+	--font-face-print: "Roboto", "Segoe UI";
+	--font-face-code: "Roboto", "Segoe UI";
+	--font-face-mono: "Roboto", "Segoe UI";
+	--font-face-title: "Roboto", "Segoe UI";
+	--font-face-sub-title: "Roboto", "Segoe UI";
+	--font-face-block-title: "Roboto", "Segoe UI";
+	--font-face-description: "Roboto", "Segoe UI";
+	--font-face-article: "Roboto", "Segoe UI";
+	--font-face-quote: "Roboto", "Segoe UI";
+	--font-face-error: "Roboto", "Segoe UI";
+	--font-face-warning: "Roboto", "Segoe UI";
+	--font-face-notice: "Roboto", "Segoe UI";
+	--font-face-logo: "Roboto", "Segoe UI";
+	--font-size: 14px;
+	--font-lite: 8px;
+	--font-tiny: 10px;
+	--font-small: 12px;
+	--font-intermediate: 16px;
+	--font-medium: 18px;
+	--font-large: 24px;
+	--font-big: 32px;
+	}
+
+/**
+ * xxx
+ *
+ * title
+ * description
+ * sub description
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */
+
+:root {
+	--border-radius: 10px;
+	--border-radius-regular: 2px;
+	--border-radius-pop: 4px;
+	--border-radius-round: 100px;
+	--border-radius-circle: 100%;
+	--no-pixel: 0px;
+	--pixel: 1px;
+	--px: 10px;
+	--px-regular: 5px;
+	--px-pop: 15px;
+	--px-large: 20px;
+	--px-extra-large: 25px;
+	}
+
+/**
+ * xxx
+ *
+ * title
+ * description
+ * sub description
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */
+
+:root {
+	--color: 51, 51, 51; --mono: 241, 241, 241; --mono-pop: 250, 250, 250; --mono-extra: 254, 254, 254;
+	--black: 17, 17, 17;
+	--white: 255, 255, 255;
+	--gray: 128, 128, 128; --gray-pop: 102, 102, 102;
+	--red: 255, 0, 0; --red-pop: 224, 108, 117;
+	--green: 0, 128, 0; --green-pop: 152, 195, 121;
+	--blue: 0, 0, 255; --blue-pop: 97, 174, 239;
+	--yellow: 255, 255, 0; --yellow-pop: 229, 192, 123;
+	--orange: 255, 165, 0; --orange-pop: 210, 132, 69;
+	--purple: 128, 0, 128; --purple-pop: 198, 120, 221;
+	--pink: 255, 192, 203; --pink-pop: 255, 192, 203;
+	--cyan: 0, 255, 255; --cyan-pop: 117, 181, 170;
+	}
+
+:root {
+	--background-color: var(--white);
+	--font-color: var(--color);
+	--font-anchor-color: var(--blue-pop);
+	--font-anchor-color-focus: var(--blue-pop);
+	--font-anchor-color-active: var(--blue-pop);
+	--border-color: 204, 204, 204;
+	--box-shadow: 60, 64, 67;
+	--box-shadow-pop: 11, 20, 26;
+	}
+
+/**
+ * xxx
+ *
+ * title
+ * description
+ * sub description
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */
+
+[theme="light"] {
+	--accent: transparent;
+	}
+
+[theme="night"] {
+	--accent: transparent;
+	}
+
+/**
+ * xxx
+ *
+ * title
+ * description
+ * sub description
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */
+
+/**
+ * ::--webkit-scrollbar { width: 3px; }
+ * ::--webkit-scrollbar-track { background-color: rgba(var(--white), 0); }
+ * ::--webkit-scrollbar-thumb { background-color: rgba(var(--black), 0.2); }
+ * ::--webkit-scrollbar-thumb:hover { background-color: rgba(var(--black), 0.3); }
+ */
+
+::state(webkit-scrollbar) { width: 3px; }
+::state(webkit-scrollbar-track) { background-color: rgba(var(--white), 0); }
+::state(webkit-scrollbar-thumb) { background-color: rgba(var(--black), 0.2); }
+::state(webkit-scrollbar-thumb):hover { background-color: rgba(var(--black), 0.3); }
+
+:disabled { opacity: 0.55; }
+::placeholder { color: darkgray; }
+
+/**
+ * xxx
+ *
+ * title
+ * description
+ * sub description
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */
+
+/**
+ * xxx
+ *
+ * title
+ * description
+ * sub description
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */
+
+.transition { transition: all 0.3s ease; }
+.transition-speedy { transition: all 0.1s ease; }
+.transition-ease { transition: all 150ms ease-in-out; }
+.transition-fade {} .transition-fade-enter-from { opacity: 0; } .transition-fade-enter-to { opacity: 1; } .transition-fade-enter-active { transition: all 0.3s ease; } .transition-fade-leave-from { opacity: 1; } .transition-fade-leave-to { opacity: 0; } .transition-fade-leave-active { transition: all 0.3s ease; }
+.transition-toast {} .transition-toast-enter-from { opacity: 0; transform: translateY(-60px); } .transition-toast-enter-to { opacity: 1; transform: translateY(0px); } .transition-toast-enter-active { transition: all 0.3s ease; } .transition-toast-leave-from { opacity: 1; } .transition-toast-leave-to { opacity: 0; } .transition-toast-leave-active { transition: all 0.3s ease; }
+.transition-notification {} .transition-notification-enter-from { opacity: 0; transform: translateY(-60px); } .transition-notification-enter-to { opacity: 1; transform: translateY(0px); } .transition-notification-enter-active { transition: all 0.3s ease; } .transition-notification-leave-from { opacity: 1; } .transition-notification-leave-to { opacity: 0; } .transition-notification-leave-active { transition: all 0.3s ease; }
+
+/**
+ * the end
+ *
+ * xxx://xxx.xxx.xxx/xxx
+ */
+
+[print] { display: none; }
+[id="app:view"] { display: table; width: 100%; height: 100%; }
+[id="app:slot"] { display: table-row; width: 100%; height: 100%; }
+[id="app:print"] { display: none; width: 100%; height: 100%; }
+[id="app:data"] { display: block; position: absolute; top: -1000000000px; left: -1000000000px; z-index: -1000000000px; }
+#app { display: table-cell; width: 100%; height: 100%; }
+#application { width: 100%; height: 100%; }
